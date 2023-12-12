@@ -29,7 +29,7 @@
   "homepage": "https://github.com/kube-HPC/hkube#readme",
   "devDependencies": {
     "husky": "^3.0.9",
-    "lerna": "^3.18.3"
+    "lerna": "^8.0.0"
   },
   "dependencies": {
     "@octokit/rest": "^16.27.3",
