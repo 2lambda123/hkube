@@ -22,7 +22,7 @@
     "@hkube/storage-manager": "^2.1.1",
     "async.queue": "^0.5.2",
     "clone": "^2.1.2",
-    "flat": "^5.0.0",
+    "flat": "^5.0.1",
     "lodash.groupby": "^4.6.0",
     "lodash.isequal": "^4.5.0",
     "lodash.throttle": "^4.1.1",
