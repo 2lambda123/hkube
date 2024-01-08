@@ -34,7 +34,7 @@
     "cronstrue": "^1.114.0",
     "fs-extra": "^10.0.0",
     "glob": "^7.1.7",
-    "moment": "^2.29.1",
+    "moment": "^2.29.4",
     "requestretry": "^5.0.0"
   },
   "devDependencies": {
