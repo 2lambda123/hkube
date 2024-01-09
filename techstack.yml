@@ -1,0 +1,1446 @@
+repo_name: 2lambda123/hkube
+report_id: 71235cb64f0e9f2257a4354ae7b4d32c
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T06:55:11+00:00'
+requested_by: 2lambda123
+provider: github
+branch: master
+detected_tools_count: 96
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/hkube
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/2lambda123/hkube
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/api-server/package.json
+  detection_source: core/api-server/package.json
+  last_updated_by: aviv
+  last_updated_on: 2017-09-17 10:58:59.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/2lambda123/hkube
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/datasources-service/package.json
+  detection_source: core/datasources-service/package.json
+  last_updated_by: reggev
+  last_updated_on: 2021-01-24 07:44:51.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/nodejs/wrapper/package-lock.json
+  detection_source: core/algorithm-builder/package.json
+  last_updated_by: Yehiyam Livneh
+  last_updated_on: 2019-09-19 08:30:18.000000000 Z
+- name: Cron
+  description: Background-only application
+  website_url: https://directory.fsf.org/wiki/Cron
+  version: 1.8.2
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Background Processing
+  image_url: https://img.stackshare.io/service/2416/default_274ed9bcc98502018f007cfcd8c09f3514d3d319.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/api-server/package-lock.json
+  detection_source: core/api-server/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2020-06-10 13:11:20.000000000 Z
+- name: GraphQL
+  description: A data query language and runtime
+  website_url: http://graphql.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Query Languages
+  image_url: https://img.stackshare.io/service/3820/12972006.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/api-server/package.json
+  detection_source: core/api-server/package.json
+  last_updated_by: GitHub Action
+  last_updated_on: 2022-08-18 08:34:11.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  version: 3.6.6
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/package-lock.json
+  detection_source: core/pipeline-driver/package.json
+  last_updated_by: GitHub Action
+  last_updated_on: 2022-03-07 09:55:13.000000000 Z
+- name: Socket.IO
+  description: Realtime application framework (Node.JS server)
+  website_url: http://socket.io/
+  version: 2.5.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/1161/vI0ZZlhZ_400x400.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/worker/package-lock.json
+  detection_source: core/worker/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-03 07:27:15.000000000 Z
+- name: ws
+  description: A Node.js WebSocket library
+  website_url: https://github.com/websockets/ws
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/11381/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-debug/package.json
+  detection_source: core/algorithm-debug/package.json
+  last_updated_by: Golan Hallel
+  last_updated_on: 2021-06-24 07:04:34.000000000 Z
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 3.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/nodejs/wrapper/package-lock.json
+  detection_source: core/algorithm-builder/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2018-11-29 13:46:07.000000000 Z
+- name: Coveralls
+  description: Track your project's code coverage over time, changes to files, and
+    badge your GitHub repo
+  website_url: https://coveralls.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/680/a43e4a04cb9f778842de43f95db59a14.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/package.json
+  detection_source: core/algorithm-builder/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2019-12-17 06:33:49.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/2lambda123/hkube
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/package.json
+  detection_source: core/algorithm-builder/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2018-11-29 13:46:07.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/hkube
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/.github/workflows/createDeployment.yml
+  detection_source: ".github/workflows/createDeployment.yml"
+  last_updated_by: maty21
+  last_updated_on: 2022-06-13 10:16:12.000000000 Z
+- name: Istanbul
+  description: A JS code coverage tool written in JS
+  website_url: http://gotwarlost.github.io/istanbul/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2105/default_78659c552327b8ff3592c2aa1694ea92c974a8d5.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/trigger-service/package.json
+  detection_source: core/trigger-service/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2018-11-04 15:32:29.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/java/dockerfile/wrapper-download/pom.xml
+  detection_source: core/algorithm-builder/environments/java/dockerfile/wrapper-download/pom.xml
+  last_updated_by: Golan Hallel
+  last_updated_on: 2021-08-17 14:33:00.000000000 Z
+- name: Log4j
+  description: A Java-based logging utility
+  website_url: https://logging.apache.org/log4j/2.x/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/java/dockerfile/wrapper-download/pom.xml
+  detection_source: core/algorithm-builder/environments/java/dockerfile/wrapper-download/pom.xml
+  last_updated_by: Golan Hallel
+  last_updated_on: 2021-08-17 14:33:00.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 6.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/package-lock.json
+  detection_source: core/algorithm-builder/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-03 17:07:12.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/datasources-service/package.json
+  detection_source: core/datasources-service/package.json
+  last_updated_by: reggev
+  last_updated_on: 2021-01-24 07:44:51.000000000 Z
+- name: Octokit
+  description: GitHub API Client Library for .NET
+  website_url: https://github.com/octokit/octokit.net
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Tools for GitHub
+  image_url: https://img.stackshare.io/service/9827/octokit-dotnet_2.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/api-server/package.json
+  detection_source: core/api-server/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2021-11-09 07:54:17.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/api-server/package.json
+  detection_source: core/api-server/package.json
+  last_updated_by: aviv
+  last_updated_on: 2017-09-17 10:58:59.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/java/dockerfile/wrapper-download/pom.xml
+  detection_source: core/algorithm-builder/environments/java/dockerfile/wrapper-download/pom.xml
+  last_updated_by: Golan Hallel
+  last_updated_on: 2021-08-17 14:33:00.000000000 Z
+- name: SinonJS
+  description: Standalone test spies, stubs and mocks for JavaScript
+  website_url: http://sinonjs.org/
+  version: 7.5.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/3509/logo.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/package-lock.json
+  detection_source: core/algorithm-builder/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2020-07-16 12:27:29.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Travis CI
+  last_updated_on: 2019-06-04 08:25:31.000000000 Z
+- name: Apollo
+  description: GraphQL server for Express, Connect, Hapi, Koa and more
+  website_url: https://www.apollographql.com/
+  version: 3.6.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/5508/CyUH653y.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/api-server/package-lock.json
+  detection_source: core/api-server/package.json
+  last_updated_by: Cube
+  last_updated_on: 2022-08-11 07:23:41.000000000 Z
+- name: Lerna
+  description: A tool for managing JavaScript projects
+  website_url: https://lerna.js.org/
+  version: 8.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/6207/OwqAUSQi_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-12 10:31:02.000000000 Z
+- name: Mockery
+  website_url: https://github.com/padraic/mockery
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4590/19780.jpeg
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/package.json
+  detection_source: core/algorithm-builder/package.json
+  last_updated_by: golanha
+  last_updated_on: 2020-05-19 06:19:40.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/nodejs/wrapper/package-lock.json
+  detection_source: core/algorithm-builder/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2019-03-12 10:00:27.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/hkube
+  detection_source: Repo Metadata
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/api-server/package-lock.json
+  detection_source: core/api-server/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-10 23:23:38.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: yehiyam
+  last_updated_on: 2019-11-04 14:26:39.000000000 Z
+- name: "@octokit/rest"
+  description: GitHub REST API client for Node.js
+  package_url: https://www.npmjs.com/@octokit/rest
+  version: 18.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16999/default_43f23668e39c9b3381720c9c76540776b8a49167.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/api-server/package-lock.json
+  detection_source: core/api-server/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2021-11-09 07:54:17.000000000 Z
+- name: adm-zip
+  description: Javascript implementation of zip for nodejs with support for electron
+    original-fs
+  package_url: https://www.npmjs.com/adm-zip
+  version: 0.4.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16663/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/package-lock.json
+  detection_source: core/algorithm-builder/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2018-12-05 14:36:32.000000000 Z
+- name: ajv
+  description: Another JSON Schema Validator
+  package_url: https://www.npmjs.com/ajv
+  version: 6.12.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16186/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/nodejs/wrapper/package-lock.json
+  detection_source: core/algorithm-debug/package.json
+  last_updated_by: Golan Hallel
+  last_updated_on: 2021-06-24 07:04:34.000000000 Z
+- name: apollo-server
+  description: Production ready GraphQL Server
+  package_url: https://www.npmjs.com/apollo-server
+  version: 3.6.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18230/default_2c3976088fc45d7746e80d08ccf312c0cbcccba7.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/api-server/package-lock.json
+  detection_source: core/api-server/package.json
+  last_updated_by: Cube
+  last_updated_on: 2022-08-11 07:23:41.000000000 Z
+- name: apollo-server-core
+  description: Core engine for Apollo GraphQL server
+  package_url: https://www.npmjs.com/apollo-server-core
+  version: 3.6.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/api-server/package-lock.json
+  detection_source: core/api-server/package.json
+  last_updated_by: Cube
+  last_updated_on: 2022-08-11 07:23:41.000000000 Z
+  vulnerabilities:
+  - name: apollo-server-core vulnerable to URL-based XSS attack affecting IE11 on
+      default landing page
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-2fvv-qxrq-7jq6
+    detected_date: Dec 19
+    severity: moderate
+    first_patched: 3.10.1
+  - name: Batched HTTP requests may set incorrect `cache-control` response header
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-8r69-3cvp-wxc3
+    detected_date: Dec 19
+    severity: moderate
+    first_patched: 3.11.0
+  - name: Prevent logging invalid header values
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-j5g3-5c8r-7qfx
+    detected_date: Dec 19
+    severity: low
+    first_patched: 3.12.1
+- name: apollo-server-express
+  description: Production-ready Node.js GraphQL server for Express and Connect
+  package_url: https://www.npmjs.com/apollo-server-express
+  version: 3.6.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17501/default_1d2902e8f9c84259702671591379572493b9009b.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/api-server/package-lock.json
+  detection_source: core/api-server/package.json
+  last_updated_by: Cube
+  last_updated_on: 2022-08-11 07:23:41.000000000 Z
+- name: archiver
+  description: A streaming interface for archive generation
+  package_url: https://www.npmjs.com/archiver
+  version: 5.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16407/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/api-server/package-lock.json
+  detection_source: core/api-server/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2021-11-09 07:54:17.000000000 Z
+- name: async
+  description: Higher-order functions and common patterns for asynchronous code
+  package_url: https://www.npmjs.com/async
+  version: 3.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15851/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/nodejs/wrapper/package-lock.json
+  detection_source: core/pipeline-driver-queue/package.json
+  last_updated_by: yehiyam
+  last_updated_on: 2022-03-07 10:01:45.000000000 Z
+- name: aws-sdk
+  description: AWS SDK for JavaScript
+  package_url: https://www.npmjs.com/aws-sdk
+  version: 2.1136.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16018/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/nodejs/wrapper/package-lock.json
+  detection_source: core/datasources-service/package.json
+  last_updated_by: reggev
+  last_updated_on: 2021-04-21 11:59:40.000000000 Z
+- name: chai-as-promised
+  description: Extends Chai with assertions about promises
+  package_url: https://www.npmjs.com/chai-as-promised
+  version: 7.1.1
+  license: WTFPL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15970/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-operator/package-lock.json
+  detection_source: core/algorithm-operator/package.json
+  last_updated_by: yehiyam
+  last_updated_on: 2021-08-05 11:10:29.000000000 Z
+- name: chai-string
+  description: Strings comparison matchers for chai
+  package_url: https://www.npmjs.com/chai-string
+  version: 1.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17625/default_b06ec1ccf403dac1459596b8571a4fb6a46577e1.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/worker/package-lock.json
+  detection_source: core/worker/package.json
+  last_updated_by: yehiyam
+  last_updated_on: 2021-04-06 09:04:01.000000000 Z
+- name: clone
+  description: Deep cloning of objects and arrays
+  package_url: https://www.npmjs.com/clone
+  version: 1.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16398/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/nodejs/wrapper/package-lock.json
+  detection_source: core/api-server/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2020-11-16 13:29:12.000000000 Z
+- name: deep-diff
+  description: Javascript utility for calculating deep difference
+  package_url: https://www.npmjs.com/deep-diff
+  version: 1.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17251/default_8da30b412bf0dbb63f862bee0dfab0a32df2fb69.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/api-server/package-lock.json
+  detection_source: core/api-server/package.json
+  last_updated_by: GitHub Action
+  last_updated_on: 2022-05-22 15:12:39.000000000 Z
+- name: delay
+  description: Delay a promise a specified amount of time
+  package_url: https://www.npmjs.com/delay
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16897/default_143d92b1fc944107cf48a3ab42a2a347bf3d91b5.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/worker/package-lock.json
+  detection_source: core/worker/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2020-01-29 08:41:32.000000000 Z
+- name: eslint-config-airbnb-base
+  description: Airbnb's base JS ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb-base
+  version: 14.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15888/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/package-lock.json
+  detection_source: core/algorithm-builder/package.json
+  last_updated_by: reggev
+  last_updated_on: 2021-01-24 07:44:51.000000000 Z
+- name: eslint-plugin-chai-friendly
+  description: This plugin makes 'no-unused-expressions' rule friendly towards chai
+    expect statements
+  package_url: https://www.npmjs.com/eslint-plugin-chai-friendly
+  version: 0.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17721/default_552addbbff67ec0ef62ce1d229e112d14ca818f5.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/package-lock.json
+  detection_source: core/algorithm-builder/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2019-12-17 06:33:49.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.19.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/package-lock.json
+  detection_source: core/algorithm-builder/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2021-09-02 12:12:04.000000000 Z
+- name: eslint-plugin-security
+  description: Security rules for eslint
+  package_url: https://www.npmjs.com/eslint-plugin-security
+  version: 1.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17069/default_23002b02644a8cb313a0f53f43df271731022a9e.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/datasources-service/package-lock.json
+  detection_source: core/datasources-service/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2021-06-17 11:47:57.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/nodejs/wrapper/package-lock.json
+  detection_source: core/algorithm-builder/package.json
+  last_updated_by: Yehiyam Livneh
+  last_updated_on: 2019-09-19 08:30:18.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: file-type
+  description: Detect the file type of a Buffer/Uint8Array/ArrayBuffer
+  package_url: https://www.npmjs.com/file-type
+  version: 16.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17196/default_21a9522c66101ebad0e63609af74acb35fe29a0a.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/api-server/package-lock.json
+  detection_source: core/api-server/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2021-11-09 07:54:17.000000000 Z
+  vulnerabilities:
+  - name: file-type vulnerable to Infinite Loop via malformed MKV file
+    cve_id: CVE-2022-36313
+    cve_url: https://github.com/advisories/GHSA-mhxj-85r3-2x55
+    detected_date: Jul 23
+    severity: high
+    first_patched: 16.5.4
+- name: flat
+  description: Take a nested Javascript object and flatten it
+  package_url: https://www.npmjs.com/flat
+  version: 5.0.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17025/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/nodejs/wrapper/package-lock.json
+  detection_source: core/pipeline-driver/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-03 14:27:25.000000000 Z
+- name: fs-extra
+  description: Fs-extra contains methods that aren't included in the vanilla Node.js
+    fs package
+  package_url: https://www.npmjs.com/fs-extra
+  version: 9.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/nodejs/wrapper/package-lock.json
+  detection_source: core/algorithm-builder/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2019-12-17 06:33:49.000000000 Z
+- name: git-clone
+  description: Clone a git repository
+  package_url: https://www.npmjs.com/git-clone
+  version: 0.1.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18505/default_aabef48673d7b85e098f65ec3d0fa0b5983de6b5.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/package-lock.json
+  detection_source: core/algorithm-builder/package.json
+  last_updated_by: Cube
+  last_updated_on: 2019-09-04 14:44:25.000000000 Z
+  vulnerabilities:
+  - name: Command injection in git-clone
+    cve_id: CVE-2022-25900
+    cve_url: https://github.com/advisories/GHSA-8jmw-wjr8-2x66
+    detected_date: Jul 7
+    severity: high
+    first_patched: 
+- name: glob
+  description: A little globber
+  package_url: https://www.npmjs.com/glob
+  version: 7.1.6
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/package-lock.json
+  detection_source: core/datasources-service/package.json
+  last_updated_by: reggev
+  last_updated_on: 2021-01-24 07:44:51.000000000 Z
+- name: graphql-request
+  description: "[![CircleCI]"
+  package_url: https://www.npmjs.com/graphql-request
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18362/default_c13193d39b06aca7675079cf8440e70e9150db5e.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/api-server/package-lock.json
+  detection_source: core/api-server/package.json
+  last_updated_by: GitHub Action
+  last_updated_on: 2022-08-18 08:34:11.000000000 Z
+- name: graphql-tools
+  description: Useful tools to create and manipulate GraphQL schemas
+  package_url: https://www.npmjs.com/graphql-tools
+  version: 8.2.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16697/default_c11d90814ded8fcd305b22fdc42b42a3111f1f6d.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/api-server/package-lock.json
+  detection_source: core/api-server/package.json
+  last_updated_by: GitHub Action
+  last_updated_on: 2022-08-18 08:34:11.000000000 Z
+- name: http-status-codes
+  description: Constants enumerating the HTTP status codes
+  package_url: https://www.npmjs.com/http-status-codes
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17527/default_e665c133253b5cd434c1991167ebd25dc68f1c17.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-gateway/package-lock.json
+  detection_source: core/algorithm-gateway/package.json
+  last_updated_by: hkube-ci
+  last_updated_on: 2022-01-17 19:49:31.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: yehiyam
+  last_updated_on: 2019-11-04 14:26:39.000000000 Z
+- name: js-yaml
+  description: YAML 1.2 parser and serializer
+  package_url: https://www.npmjs.com/js-yaml
+  version: 3.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/nodejs/wrapper/package-lock.json
+  detection_source: core/algorithm-builder/package.json
+  last_updated_by: yehiyam
+  last_updated_on: 2020-03-09 10:36:33.000000000 Z
+- name: lodash.clonedeep
+  description: The lodash method `_.cloneDeep` exported as a module
+  package_url: https://www.npmjs.com/lodash.clonedeep
+  version: 4.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16539/default_50be6a65e5f7390c20dda2f19371abc1271db012.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/nodejs/wrapper/package-lock.json
+  detection_source: core/algorithm-operator/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2021-05-13 07:07:25.000000000 Z
+- name: lodash.groupby
+  description: The lodash method `_.groupBy` exported as a module
+  package_url: https://www.npmjs.com/lodash.groupby
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18458/default_88218973257b3d191e711db64f20d86920ad99e4.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/api-server/package-lock.json
+  detection_source: core/pipeline-driver-queue/package.json
+  last_updated_by: yehiyam
+  last_updated_on: 2022-03-07 10:01:45.000000000 Z
+- name: lodash.isequal
+  description: The Lodash method `_.isEqual` exported as a module
+  package_url: https://www.npmjs.com/lodash.isequal
+  version: 4.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16523/default_28df1e698b81279fa78b702212cd6185de706683.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/nodejs/wrapper/package-lock.json
+  detection_source: core/algorithm-queue/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2021-09-02 06:10:25.000000000 Z
+- name: lodash.merge
+  description: The Lodash method `_.merge` exported as a module
+  package_url: https://www.npmjs.com/lodash.merge
+  version: 4.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16314/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/package-lock.json
+  detection_source: core/algorithm-operator/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2021-05-13 07:07:25.000000000 Z
+- name: lodash.mergewith
+  description: The Lodash method `_.mergeWith` exported as a module
+  package_url: https://www.npmjs.com/lodash.mergewith
+  version: 4.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18656/default_f228716e0e2054736b7cef03e48c321d920064dc.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/api-server/package-lock.json
+  detection_source: core/api-server/package.json
+  last_updated_by: GitHub Action
+  last_updated_on: 2022-05-22 15:12:39.000000000 Z
+- name: lodash.sortby
+  description: The lodash method `_.sortBy` exported as a module
+  package_url: https://www.npmjs.com/lodash.sortby
+  version: 4.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17688/default_9693d58c90f5c726ee648423687212d2a94266da.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/api-server/package-lock.json
+  detection_source: core/datasources-service/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2021-06-17 11:47:57.000000000 Z
+- name: lodash.throttle
+  description: The lodash method `_.throttle` exported as a module
+  package_url: https://www.npmjs.com/lodash.throttle
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16643/default_8bb559d64720e298d7108ccd64281e535c1c76a8.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/pipeline-driver/package-lock.json
+  detection_source: core/pipeline-driver/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2020-08-05 14:44:53.000000000 Z
+- name: mockery
+  description: Simplifying the use of mocks with Node.js
+  package_url: https://www.npmjs.com/mockery
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16537/default_e8b43b4cc93dd2989e630d56550f589fccdcda03.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/package-lock.json
+  detection_source: core/algorithm-builder/package.json
+  last_updated_by: golanha
+  last_updated_on: 2020-05-19 06:19:40.000000000 Z
+  vulnerabilities:
+  - name: mockery is vulnerable to prototype pollution
+    cve_id: CVE-2022-37614
+    cve_url: https://github.com/advisories/GHSA-gmwp-3pwc-3j3g
+    detected_date: Jul 29
+    severity: critical
+    first_patched: 
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/nodejs/wrapper/package-lock.json
+  detection_source: core/algorithm-builder/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2019-03-12 10:00:27.000000000 Z
+  vulnerabilities:
+  - name: Moment.js vulnerable to Inefficient Regular Expression Complexity
+    cve_id: CVE-2022-31129
+    cve_url: https://github.com/advisories/GHSA-wc69-rhjr-hc9g
+    detected_date: Jul 7
+    severity: high
+    first_patched: 2.29.4
+- name: multer
+  description: Middleware for handling `multipart/form-data`
+  package_url: https://www.npmjs.com/multer
+  version: 1.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16421/default_23e0dabcd0197f0c1f0a41268f8ca3f7e8b1f1e2.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/api-server/package-lock.json
+  detection_source: core/api-server/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2021-11-09 07:54:17.000000000 Z
+- name: nock
+  description: HTTP server mocking and expectations library for Node.js
+  package_url: https://www.npmjs.com/nock
+  version: 13.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16036/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/api-server/package-lock.json
+  detection_source: core/api-server/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2021-11-09 07:54:17.000000000 Z
+- name: nyc
+  description: The Istanbul command line interface
+  package_url: https://www.npmjs.com/nyc
+  version: 14.1.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15837/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/package-lock.json
+  detection_source: core/algorithm-builder/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2018-11-29 13:46:07.000000000 Z
+- name: object-path
+  description: Access deep object properties using a path
+  package_url: https://www.npmjs.com/object-path
+  version: 0.11.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17303/default_78541a280e8cac42279d6c363e71e5b8f462e962.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/nodejs/wrapper/package-lock.json
+  detection_source: core/algorithm-operator/package.json
+  last_updated_by: yehiyam
+  last_updated_on: 2021-08-05 11:10:29.000000000 Z
+- name: performance-now
+  description: Implements performance.now
+  package_url: https://www.npmjs.com/performance-now
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17927/default_044cd0df4d9ce3a23f3b6a78e241ef7e5a4407c7.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/nodejs/wrapper/package-lock.json
+  detection_source: core/algorithm-queue/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2021-09-02 06:10:25.000000000 Z
+- name: query-string
+  description: Parse and stringify URL query strings
+  package_url: https://www.npmjs.com/query-string
+  version: 5.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16244/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/package-lock.json
+  detection_source: core/api-server/package.json
+  last_updated_by: Cube
+  last_updated_on: 2022-08-11 07:23:41.000000000 Z
+- name: read-chunk
+  description: Read a chunk from a file
+  package_url: https://www.npmjs.com/read-chunk
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18679/default_796854034d0fb722b81b1d885cb3ab88a613d5fb.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/api-server/package-lock.json
+  detection_source: core/api-server/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2019-04-02 14:39:30.000000000 Z
+- name: recursive-readdir
+  description: Get an array of all files in a directory and subdirectories
+  package_url: https://www.npmjs.com/recursive-readdir
+  version: 2.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16636/default_5a21421012fa20e57fe0aeab31228f42e7118abc.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/nodejs/wrapper/package-lock.json
+  detection_source: core/worker/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-03 07:31:06.000000000 Z
+- name: request
+  description: Simplified HTTP request client
+  package_url: https://www.npmjs.com/request
+  version: 2.88.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/package-lock.json
+  detection_source: core/api-server/package.json
+  last_updated_by: GitHub Action
+  last_updated_on: 2022-08-18 08:34:11.000000000 Z
+  vulnerabilities:
+  - name: Server-Side Request Forgery in Request
+    cve_id: CVE-2023-28155
+    cve_url: https://github.com/advisories/GHSA-p8p7-x288-28g6
+    detected_date: Mar 17
+    severity: moderate
+    first_patched: 
+- name: request-promise
+  description: The simplified HTTP request client 'request' with Promise support
+  package_url: https://www.npmjs.com/request-promise
+  version: 4.2.6
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16072/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-operator/package-lock.json
+  detection_source: core/algorithm-operator/package.json
+  last_updated_by: yehiyam
+  last_updated_on: 2021-08-05 11:10:29.000000000 Z
+- name: semver
+  description: The semantic version parser used by npm
+  package_url: https://www.npmjs.com/semver
+  version: 5.7.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18809/default_dad3dc9dde4b82dc2a7bd32aa091165887abe57b.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/nodejs/wrapper/package-lock.json
+  detection_source: core/api-server/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2021-11-09 07:54:17.000000000 Z
+  vulnerabilities:
+  - name: semver vulnerable to Regular Expression Denial of Service
+    cve_id: CVE-2022-25883
+    cve_url: https://github.com/advisories/GHSA-c2qf-rxjj-qqgw
+    detected_date: Jun 23
+    severity: moderate
+    first_patched: 5.7.2
+- name: simple-git
+  description: Simple GIT interface for node.js
+  package_url: https://www.npmjs.com/simple-git
+  version: 2.48.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16567/default_d6ff16957d0b119d673d5ec0eb21b08d8d5008f4.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/datasources-service/package-lock.json
+  detection_source: core/datasources-service/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-06 15:56:22.000000000 Z
+  vulnerabilities:
+  - name: Remote code execution in simple-git
+    cve_id: CVE-2022-25860
+    cve_url: https://github.com/advisories/GHSA-9w5j-4mwv-2wj8
+    detected_date: Jan 27
+    severity: critical
+    first_patched: 3.16.0
+  - name: simple-git vulnerable to Remote Code Execution when enabling the ext transport
+      protocol
+    cve_id: CVE-2022-25912
+    cve_url: https://github.com/advisories/GHSA-9p95-fxvg-qgq2
+    detected_date: Dec 8
+    severity: high
+    first_patched: 3.15.0
+  - name: Command injection in simple-git
+    cve_id: CVE-2022-24066
+    cve_url: https://github.com/advisories/GHSA-28xr-mwxg-3qc8
+    detected_date: Apr 13
+    severity: high
+    first_patched: 3.5.0
+  - name: Command injection in simple-git
+    cve_id: CVE-2022-24433
+    cve_url: https://github.com/advisories/GHSA-3f95-r44v-8mrg
+    detected_date: Mar 18
+    severity: high
+    first_patched: 3.3.0
+- name: string-template
+  description: A simple string template function based on named or indexed arguments
+  package_url: https://www.npmjs.com/string-template
+  version: 0.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18479/default_b1cf9304b0729d49b29387dbf128529889705643.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/nodejs/wrapper/package-lock.json
+  detection_source: core/api-server/package.json
+  last_updated_by: Cube
+  last_updated_on: 2022-08-11 07:23:41.000000000 Z
+- name: subscriptions-transport-ws
+  description: A websocket transport for GraphQL subscriptions
+  package_url: https://www.npmjs.com/subscriptions-transport-ws
+  version: 0.9.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17948/default_e0b07170ab7d7ea66954ff35fdeaae5255c4c0aa.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/api-server/package-lock.json
+  detection_source: core/api-server/package.json
+  last_updated_by: Cube
+  last_updated_on: 2022-08-11 07:23:41.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 3.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/nodejs/wrapper/package-lock.json
+  detection_source: core/gc-service/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2021-06-13 09:38:45.000000000 Z
+- name: yargs
+  description: Yargs the modern, pirate-themed, successor to optimist
+  package_url: https://www.npmjs.com/yargs
+  version: 13.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/package-lock.json
+  detection_source: core/algorithm-builder/package.json
+  last_updated_by: Nassi Harel
+  last_updated_on: 2019-12-17 06:33:49.000000000 Z
+- name: commons-jxpath:commons-jxpath
+  description: A Java-based implementation of XPath 1.0 that
+  version: '1.3'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/java/dockerfile/wrapper-download/pom.xml
+  detection_source: core/algorithm-builder/environments/java/dockerfile/wrapper-download/pom.xml
+  last_updated_by: Golan Hallel
+  last_updated_on: 2021-08-17 14:33:00.000000000 Z
+  vulnerabilities:
+  - name: 'Withdrawn: CVE Rejected: JXPath vulnerable to remote code execution when
+      interpreting untrusted XPath expressions'
+    cve_id: CVE-2022-41852
+    cve_url: https://github.com/advisories/GHSA-wrx5-rp7m-mm49
+    detected_date: Oct 7
+    severity: critical
+    first_patched: 
+  - name: JXPath Out-of-bounds Write vulnerability
+    cve_id: CVE-2022-40159
+    cve_url: https://github.com/advisories/GHSA-99jc-v8qm-wjvv
+    detected_date: Oct 11
+    severity: moderate
+    first_patched: 
+  - name: JXPath Out-of-bounds Write vulnerability
+    cve_id: CVE-2022-40158
+    cve_url: https://github.com/advisories/GHSA-mf2h-6mg2-px9x
+    detected_date: Oct 11
+    severity: moderate
+    first_patched: 
+  - name: JXPath Out-of-bounds Write vulnerability
+    cve_id: CVE-2022-40161
+    cve_url: https://github.com/advisories/GHSA-hw4q-585g-f92x
+    detected_date: Oct 11
+    severity: moderate
+    first_patched: 
+  - name: JXPath Out-of-bounds Write vulnerability
+    cve_id: CVE-2022-40157
+    cve_url: https://github.com/advisories/GHSA-c7mc-q43h-5672
+    detected_date: Oct 20
+    severity: moderate
+    first_patched: 
+  - name: JXPath Out-of-bounds Write vulnerability
+    cve_id: CVE-2022-40160
+    cve_url: https://github.com/advisories/GHSA-mqxp-cjr9-c5jm
+    detected_date: Oct 11
+    severity: moderate
+    first_patched: 
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/java/dockerfile/wrapper-download/pom.xml
+  detection_source: core/algorithm-builder/environments/java/dockerfile/wrapper-download/pom.xml
+  last_updated_by: Golan Hallel
+  last_updated_on: 2021-08-17 14:33:00.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  version: '3.9'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/java/dockerfile/wrapper-download/pom.xml
+  detection_source: core/algorithm-builder/environments/java/dockerfile/wrapper-download/pom.xml
+  last_updated_by: Golan Hallel
+  last_updated_on: 2021-08-17 14:33:00.000000000 Z
+- name: org.apache.logging.log4j:log4j-1.2-api
+  description: The Apache Log4j 1.x Compatibility API
+  version: 2.15.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/java/dockerfile/wrapper-download/pom.xml
+  detection_source: core/algorithm-builder/environments/java/dockerfile/wrapper-download/pom.xml
+  last_updated_by: Golan Hallel
+  last_updated_on: 2021-08-17 14:33:00.000000000 Z
+- name: org.apache.logging.log4j:log4j-api
+  description: The Apache Log4j API
+  version: 2.15.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/java/dockerfile/wrapper-download/pom.xml
+  detection_source: core/algorithm-builder/environments/java/dockerfile/wrapper-download/pom.xml
+  last_updated_by: Golan Hallel
+  last_updated_on: 2021-08-17 14:33:00.000000000 Z
+  vulnerabilities:
+  - name: Incomplete fix for Apache Log4j vulnerability
+    cve_id: CVE-2021-45046
+    cve_url: https://github.com/advisories/GHSA-7rjr-3q55-vv33
+    detected_date: Dec 14
+    severity: critical
+    first_patched: 2.16.0
+  - name: Improper Input Validation and Uncontrolled Recursion in Apache Log4j2
+    cve_id: CVE-2021-45105
+    cve_url: https://github.com/advisories/GHSA-p6xc-xr62-6r2g
+    detected_date: Dec 19
+    severity: high
+    first_patched: 2.17.0
+  - name: Improper Input Validation and Injection in Apache Log4j2
+    cve_id: CVE-2021-44832
+    cve_url: https://github.com/advisories/GHSA-8489-44mv-ggj8
+    detected_date: Jan 5
+    severity: moderate
+    first_patched: 2.17.1
+- name: org.apache.logging.log4j:log4j-core
+  description: The Apache Log4j Implementation
+  version: 2.17.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/java/dockerfile/wrapper-download/pom.xml
+  detection_source: core/algorithm-builder/environments/java/dockerfile/wrapper-download/pom.xml
+  last_updated_by: Golan Hallel
+  last_updated_on: 2021-08-17 14:33:00.000000000 Z
+- name: org.apache.logging.log4j:log4j-slf4j-impl
+  description: Binding between SLF4J API and Log4J2 Core
+  version: 2.15.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/java/dockerfile/wrapper-download/pom.xml
+  detection_source: core/algorithm-builder/environments/java/dockerfile/wrapper-download/pom.xml
+  last_updated_by: Golan Hallel
+  last_updated_on: 2021-08-17 14:33:00.000000000 Z
+- name: org.json:json
+  description: JSON is a light-weight, language independent, data interchange format
+  license: JSON
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/hkube/blob/master/core/algorithm-builder/environments/java/dockerfile/wrapper-download/pom.xml
+  detection_source: core/algorithm-builder/environments/java/dockerfile/wrapper-download/pom.xml
+  last_updated_by: Golan Hallel
+  last_updated_on: 2021-08-17 14:33:00.000000000 Z
