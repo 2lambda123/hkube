@@ -1,9 +1,9 @@
-const fse = require('fs-extra');
-const pathLib = require('path');
+const fs = require('fs');
+const path = require('path');
 const { Consumer } = require('@hkube/producer-consumer');
 const { taskStatuses } = require('@hkube/consts');
-const storageManager = require('@hkube/storage-manager');
-const log = require('@hkube/logger').GetLogFromContainer();
+const { storeManager } = require('@hkube/storage-manager');
+const logger = require('@hkube/logger').GetLogFromContainer();
 const component = require('../consts/componentNames').JOBS_CONSUMER;
 const Etcd = require('../Etcd');
 const dbConnection = require('../db');
@@ -214,4 +214,4 @@ catch (e) {
     }
 }
 
-module.exports = new JobConsumer();
+module.exports = JobConsumer;
