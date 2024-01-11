@@ -99,7 +99,7 @@ class JobConsumer {
             return this.handleFail({ ...job, error: e.message });
         }
 
-        // let { id: cloneId } = dataSource;
+        let { id: cloneId } = resolvedSnapshot || dataSource;
         // if (resolvedSnapshot) {
         //     cloneId = resolvedSnapshot.id;
         // }
@@ -128,7 +128,7 @@ class JobConsumer {
             await repository.pullFiles();
         }
         catch (e) {
-            let message = `could not clone the datasource ${dataSource.name}. ${e.message}`;
+            let message = `Failed to clone the data source ${dataSource.name}. ${e.message}`;
             if (typeof e === 'string') {
                 if (e.match(/files do not exist/i)) {
                     message = `could not clone the datasource ${dataSource.name}. 
