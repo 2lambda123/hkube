@@ -1,10 +1,10 @@
 const Components = {
     MAIN: 'Main',
-    RUNNER: 'Runner',
+    SCHEDULER: 'Scheduler',
     ADAPTER_CONTROLLER: 'Adapter-Controller',
     RESOURCE_DECIDER: 'Resource-Decider',
     ALGORITHM_QUEUE: 'Algorithm-Queue',
-    DRIVERS_QUEUE: 'Drivers-Queue',
+    DRIVERS_QUEUE: 'Driver-Queue',
     PROMETHEUS_ADAPTER: 'Prometheus-Adapter',
     DB: 'DB'
 };
