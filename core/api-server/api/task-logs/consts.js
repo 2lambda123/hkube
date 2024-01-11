@@ -26,9 +26,23 @@ const components = {
 
 const internalLogPrefix = 'wrapper::';
 
-const LOGS_LIMIT = 500;
+const LOGS_LIMIT = 1000;
 
 module.exports = {
+  TASK_STATUS: {
+    PENDING: 'pending',
+    RUNNING: 'running',
+    SUCCEEDED: 'succeeded',
+    FAILED: 'failed',
+  },
+  LOG_TYPES: {
+    SYSTEM: 'system',
+    TASK: 'task',
+  },
+  LOGS_ORDER: {
+    ASC: 'asc',
+    DESC: 'desc',
+  },
     sources,
     formats,
     sortOrder,
