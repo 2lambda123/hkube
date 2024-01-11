@@ -12,6 +12,7 @@ const buildsService = require('./builds');
 const versionsService = require('./versions');
 const validator = require('../validation/api-validator');
 const { ResourceNotFoundError, ActionNotAllowed, InvalidDataError, ResourceExistsError } = require('../errors');
+const formatter = require('../utils/formatters');
 const { MESSAGES } = require('../consts/builds');
 const formatter = require('../utils/formatters');
 const createQueryObjectFromString = (str) => {
@@ -60,7 +61,11 @@ class AlgorithmStore {
     }
 
     async getAlgorithm(options) {
-        validator.algorithms.validateAlgorithmName(options);
+        try {
+            validator.algorithms.validateAlgorithmName(options);
+        } catch (error) {
+            throw new Error(error.message);
+        }
         const algorithm = await stateManager.getAlgorithm(options);
         if (!algorithm) {
             throw new ResourceNotFoundError('algorithm', options.name);
@@ -130,7 +135,11 @@ class AlgorithmStore {
     }
 
     async updateAlgorithm(options) {
-        validator.algorithms.validateAlgorithmName(options);
+        try {
+            validator.algorithms.validateAlgorithmName(options);
+        } catch (error) {
+            throw new Error(error.message);
+        }
         const alg = await stateManager.getAlgorithm(options);
         if (!alg) {
             throw new ResourceNotFoundError('algorithm', options.name);
