@@ -4,7 +4,7 @@ const { Consumer } = require('@hkube/producer-consumer');
 const { taskStatuses } = require('@hkube/consts');
 const storageManager = require('@hkube/storage-manager');
 const log = require('@hkube/logger').GetLogFromContainer();
-const component = require('../consts/consts').JOBS_CONSUMER;
+const component = require('../consts/componentNames').JOBS_CONSUMER;
 const Etcd = require('../Etcd');
 const dbConnection = require('../db');
 const Repository = require('../utils/Repository');
@@ -69,6 +69,7 @@ class JobConsumer {
         await this.setActive(job);
 
         let dataSource;
+        let errorMessage;
         let resolvedSnapshot;
         let snapshot;
 
@@ -123,7 +124,19 @@ class JobConsumer {
                 await repository.ensureClone(dataSource.commitHash, true, snapshot.name);
             }
             else {
-                await repository.ensureClone(dataSource.commitHash);
+                try {
+            await repository.ensureClone(dataSource.commitHash);
+            await repository.pullFiles();
+        }
+catch (e) {
+            let message = `could not clone the datasource ${dataSource.name}. ${e.message}`;
+            if (typeof e === 'string') {
+                if (e.match(/files do not exist/i)) {
+                    message = `could not clone the datasource ${dataSource.name}. \n                        MISSING FILES: The storage is not synced with the git repository`;
+                }
+            }
+            return this.handleFail({ ...job, error: message });
+        }
             }
             await repository.pullFiles();
         }
@@ -192,7 +205,12 @@ class JobConsumer {
     }
 
     unmountDataSource(jobId) {
-        return fse.remove(pathLib.join(this.rootDir, jobId));
+        try {
+            return fse.remove(pathLib.join(this.rootDir, jobId));
+        }
+catch (e) {
+            return this.handleFail({ ...job, error: `failed unmounting dataSource ${jobId}. ${e.message}` });
+        }
     }
 }
 
