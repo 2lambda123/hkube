@@ -149,7 +149,7 @@ class AlgorithmStore {
     }
 
     async deleteAlgorithm(options) {
-        validator.algorithms.validateAlgorithmDelete(options);
+        validator.algorithms.validateAlgorithmName(options);
         const { name, force, keepOldVersions } = options;
         const algorithm = await stateManager.getAlgorithm({ name });
         if (!algorithm) {
