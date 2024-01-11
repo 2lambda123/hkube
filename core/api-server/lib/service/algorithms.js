@@ -241,6 +241,9 @@ class AlgorithmStore {
         const file = { path: data.file?.path, name: data.file?.originalname };
 
         if (!payload.name) {
+        logger.error('Algorithm should have a required property "name"');
+        throw new InvalidDataError('Algorithm should have a required property "name"');
+      
             throw new InvalidDataError('algorithm should have required property "name"');
         }
 
@@ -287,7 +290,11 @@ class AlgorithmStore {
         if (shouldStoreOverride || shouldStoreFirstApply) {
             messages.push(format(MESSAGES.ALGORITHM_PUSHED, { algorithmName: newAlgorithm.name }));
             messagesCode.push(errorsCode.ALGORITHM_PUSHED);
+            try {
             await stateManager.updateAlgorithm(newAlgorithm);
+        } catch (error) {
+            throw new Error(`Failed to update algorithm ${newAlgorithm.name}. ${error.message}`);
+        }
         }
         return { buildId, messages, messagesCode, algorithm: newAlgorithm };
     }
