@@ -1,0 +1,43 @@
+# core/release-manager/actions/workflows/ci-main.yaml
+
+name: CI-MAIN
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Check wrapper versions
+        run: |
+          python check_wrapper_versions.py
+
+      - name: Promote helm chart
+        run: |
+          helm promote --chart-version v2.5.121
+
+      - name: Create release branch
+        run: |
+          git checkout -b release_v2.5
+          git push origin release_v2.5
+
+      - name: Build and test
+        run: |
+          make build
+          make test
