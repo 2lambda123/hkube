@@ -14,7 +14,7 @@ const sortOrder = {
 };
 
 const containers = {
-    pipelineDriver: 'driver',
+    pipelineDriver: 'pipelineDriver',
     worker: 'worker',
     algorunner: 'algorunner'
 };
